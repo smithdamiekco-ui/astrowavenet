@@ -8,8 +8,8 @@ interface SEOProps {
 }
 
 const SEO = ({ title, description, path, type = "website" }: SEOProps) => {
-  const url = `https://astrowavetvnet.com${path}`;
-  const fullTitle = path === "/" ? title : `${title} | Astrowave TV Net`;
+  const url = `https://CoreWaveConnect.com${path}`;
+  const fullTitle = path === "/" ? title : `${title} | CoreWaveConnect`;
 
   return (
     <Helmet>

@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Mail } from "lucide-react";
-import logo from "@/assets/astrowave-logo.png";
+import logo from "@/assets/corewaveconnect-logo.svg";
 
 const Footer = forwardRef<HTMLElement>((_, ref) => {
   return (
@@ -11,9 +11,9 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="Astrowave TV Net" className="h-8 w-8" />
+              <img src={logo} alt="CoreWaveConnect" className="h-8 w-8" />
               <span className="text-lg font-bold tracking-tight text-foreground">
-                Astro<span className="text-primary">wave</span>
+                Core<span className="text-primary">Wave</span>
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
@@ -77,8 +77,8 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                <a href="mailto:info@astrowavetvnet.com" className="hover:text-primary transition-colors">
-                  info@astrowavetvnet.com
+                <a href="mailto:info@CoreWaveConnect.com" className="hover:text-primary transition-colors">
+                  info@CoreWaveConnect.com
                 </a>
               </li>
             </ul>
@@ -91,14 +91,14 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
             Disclaimer: All prices, speeds, and channel counts shown are subject to change and may vary by location.
             Internet speeds represent maximum download speeds under ideal conditions; actual speeds may vary.
             Taxes, fees, and equipment charges may apply. Service availability is not guaranteed in all areas.
-            Contact us at (888) 253-7498 for details. Astrowave TV Net is operated by Steve Alexander Lopez.
+            Contact us at (888) 253-7498 for details. CoreWaveConnect is operated by Steve Alexander Lopez.
           </p>
         </div>
 
         {/* Bottom bar */}
         <div className="mt-6 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Astrowave TV Net. All rights reserved. Owner: Steve Alexander Lopez
+            © {new Date().getFullYear()} CoreWaveConnect. All rights reserved. Owner: Steve Alexander Lopez
           </p>
           <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
             <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>

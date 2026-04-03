@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern "C" shape representing Core -->
+  <path d="M350 106C291.2 106 243 154.2 243 213C243 271.8 291.2 320 350 320" stroke="#00D4FF" stroke-width="45" stroke-linecap="round"/>
+  
+  <!-- Connection wave going through the C -->
+  <path d="M100 256 C150 200, 200 200, 250 256 C300 312, 350 312, 400 256" stroke="#0099FF" stroke-width="35" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Second wave for depth -->
+  <path d="M85 256 C135 210, 185 210, 235 256 C285 302, 335 302, 415 256" stroke="#00CCFF" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/>
+  
+  <!-- Bottom part of C -->
+  <path d="M350 192C291.2 192 243 240.2 243 299C243 357.8 291.2 406 350 406" stroke="#00D4FF" stroke-width="45" stroke-linecap="round"/>
+  
+  <!-- Connection dots -->
+  <circle cx="100" cy="256" r="18" fill="#00AAFF"/>
+  <circle cx="412" cy="256" r="18" fill="#00AAFF"/>
+  
+  <!-- Small accent dots -->
+  <circle cx="250" cy="256" r="12" fill="#00D4FF" opacity="0.8"/>
+</svg>

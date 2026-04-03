@@ -86,7 +86,7 @@ const addons = [
 
 const faqs = [
   {
-    q: "What areas does Astrowave TV Net cover?",
+    q: "What areas does CoreWaveConnect cover?",
     a: "We provide service across all 50 states in the United States. Our nationwide network ensures high-speed internet and TV coverage from coast to coast. Contact us to verify availability at your specific address.",
   },
   {
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: "What equipment is provided?",
-    a: "All plans include a modem/router combo and one TV receiver. Additional receivers are available for $5.99/mo each. Equipment remains property of Astrowave TV Net.",
+    a: "All plans include a modem/router combo and one TV receiver. Additional receivers are available for $5.99/mo each. Equipment remains property of CoreWaveConnect.",
   },
   {
     q: "What internet speeds can I expect?",
@@ -126,7 +126,7 @@ const Plans = () => {
     <div>
       <SEO
         title="Plans & Pricing"
-        description="Compare Astrowave TV Net Internet + TV bundles. Frontier Basic at $69.99/mo, Explorer Plus at $99.99/mo, and Summit Ultra at $149.99/mo with speeds up to 1+ Gbps."
+        description="Compare CoreWaveConnect Internet + TV bundles. Frontier Basic at $69.99/mo, Explorer Plus at $99.99/mo, and Summit Ultra at $149.99/mo with speeds up to 1+ Gbps."
         path="/plans"
       />
       {/* Hero */}
@@ -334,3 +334,4 @@ const Plans = () => {
 };
 
 export default Plans;
+

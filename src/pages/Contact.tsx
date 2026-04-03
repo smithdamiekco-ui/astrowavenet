@@ -61,7 +61,7 @@ const Contact = () => {
     <div>
       <SEO
         title="Contact & Support"
-        description="Get in touch with Astrowave TV Net. Call (888) 253-7498 for technical support, billing, or to sign up for high-speed internet and TV service."
+        description="Get in touch with CoreWaveConnect. Call (888) 253-7498 for technical support, billing, or to sign up for high-speed internet and TV service."
         path="/contact"
       />
       {/* Hero */}
@@ -212,8 +212,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-sm mb-1">Email</h4>
-                    <a href="mailto:info@astrowavetvnet.com" className="text-sm text-primary hover:text-secondary transition-colors">
-                      info@astrowavetvnet.com
+                    <a href="mailto:info@CoreWaveConnecttvnet.com" className="text-sm text-primary hover:text-secondary transition-colors">
+                      info@CoreWaveConnecttvnet.com
                     </a>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ const Contact = () => {
               <motion.div variants={fadeUp} custom={2} className="glass-card p-6">
                 <p className="text-xs uppercase tracking-widest text-primary mb-2">Owner</p>
                 <p className="font-bold">Steve Alexander Lopez</p>
-                <p className="text-sm text-muted-foreground">Astrowave TV Net — Nationwide Service</p>
+                <p className="text-sm text-muted-foreground">CoreWaveConnect — Nationwide Service</p>
               </motion.div>
             </motion.div>
           </div>
@@ -254,3 +254,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

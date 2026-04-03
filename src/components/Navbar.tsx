@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assets/astrowave-logo.png";
+import logo from "@/assets/corewaveconnect-logo.svg";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -21,9 +21,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0">
-            <img src={logo} alt="Astrowave TV Net" className="h-8 w-8 lg:h-10 lg:w-10" />
+            <img src={logo} alt="CoreWaveConnect" className="h-8 w-8 lg:h-10 lg:w-10" />
             <span className="text-lg lg:text-xl font-bold tracking-tight text-foreground">
-              Astro<span className="text-primary">wave</span>
+              Core<span className="text-primary">Wave</span>
             </span>
           </Link>
 

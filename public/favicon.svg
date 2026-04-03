@@ -1,0 +1,29 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for better visibility -->
+  <circle cx="512" cy="512" r="500" fill="#0A0F1C" opacity="0.95"/>
+  
+  <!-- Main "C" shape representing Core -->
+  <path d="M680 250 C565 250, 475 340, 475 455 C475 570, 565 660, 680 660" 
+        stroke="#00D4FF" stroke-width="70" stroke-linecap="round" fill="none"/>
+  
+  <!-- Wave pattern going through - representing connectivity -->
+  <path d="M220 512 C320 420, 420 420, 520 512 C620 604, 720 604, 820 512" 
+        stroke="#0099FF" stroke-width="55" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Secondary wave for depth -->
+  <path d="M200 512 C300 440, 400 440, 500 512 C600 584, 700 584, 840 512" 
+        stroke="#00CCFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+  
+  <!-- Bottom part of C -->
+  <path d="M680 364 C565 364, 475 454, 475 569 C475 684, 565 774, 680 774" 
+        stroke="#00D4FF" stroke-width="70" stroke-linecap="round" fill="none"/>
+  
+  <!-- Connection nodes/dots -->
+  <circle cx="220" cy="512" r="30" fill="#00AAFF"/>
+  <circle cx="820" cy="512" r="30" fill="#00AAFF"/>
+  <circle cx="520" cy="512" r="22" fill="#00D4FF" opacity="0.9"/>
+  
+  <!-- Small accent nodes -->
+  <circle cx="360" cy="465" r="16" fill="#00CCFF" opacity="0.8"/>
+  <circle cx="680" cy="559" r="16" fill="#00CCFF" opacity="0.8"/>
+</svg>

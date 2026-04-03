@@ -8,11 +8,11 @@ import FAQSection from "@/components/FAQSection";
 
 const homeFaqs = [
   {
-    q: "What internet speeds does Astrowave offer?",
-    a: "Astrowave TV Net offers plans ranging from 300 Mbps to 1+ Gbps. Whether you're browsing, streaming in 4K, gaming, or working remotely, we have a plan that fits your needs.",
+    q: "What internet speeds does CoreWaveConnect offer?",
+    a: "CoreWaveConnect offers plans ranging from 300 Mbps to 1+ Gbps. Whether you're browsing, streaming in 4K, gaming, or working remotely, we have a plan that fits your needs.",
   },
   {
-    q: "Is Astrowave available in my area?",
+    q: "Is CoreWaveConnect available in my area?",
     a: "We provide service across all 50 states in the United States. Our nationwide network ensures coverage from coast to coast. Call us at (888) 253-7498 or visit our Contact page to verify availability at your specific address.",
   },
   {
@@ -96,7 +96,7 @@ const testimonials = [
   {
     name: "James Mitchell",
     location: "Austin, TX",
-    quote: "Switching to Astrowave was the best decision we made. Our whole family streams, games, and video calls simultaneously — zero lag.",
+    quote: "Switching to CoreWaveConnect was the best decision we made. Our whole family streams, games, and video calls simultaneously — zero lag.",
   },
   {
     name: "Maria Gonzalez",
@@ -184,8 +184,8 @@ const Index = () => {
   return (
     <div>
       <SEO
-        title="Astrowave TV Net | Internet & TV for America"
-        description="Astrowave TV Net delivers reliable high-speed internet up to 1+ Gbps and 300+ TV channels nationwide. Explore our Internet + TV bundles starting at $69.99/mo."
+        title="CoreWaveConnect | Internet & TV for America"
+        description="CoreWaveConnect delivers reliable high-speed internet up to 1+ Gbps and 300+ TV channels nationwide. Explore our Internet + TV bundles starting at $69.99/mo."
         path="/"
       />
       {/* CTA Popup */}
@@ -356,7 +356,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Why Astrowave */}
+      {/* Why CoreWaveConnect */}
       <section className="py-20 lg:py-28 border-t border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -403,7 +403,7 @@ const Index = () => {
             {[
               { icon: Shield, title: "Rock-Solid Reliability", desc: "Our infrastructure is built for 99.7% uptime with redundant systems across the nation, keeping you connected through any conditions." },
               { icon: Zap, title: "Ultra-Fast Speeds", desc: "Up to 1+ Gbps download speeds with low-latency connections optimized for streaming, gaming, and remote work." },
-              { icon: Globe, title: "Nationwide Coverage", desc: "From coast to coast, Astrowave delivers premium internet and TV service to homes and businesses across all 50 states." },
+              { icon: Globe, title: "Nationwide Coverage", desc: "From coast to coast, CoreWaveConnect delivers premium internet and TV service to homes and businesses across all 50 states." },
             ].map((item, i) => (
               <motion.div
                 key={item.title}
@@ -510,3 +510,4 @@ const Index = () => {
 };
 
 export default Index;
+

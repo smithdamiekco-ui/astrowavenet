@@ -2,13 +2,13 @@ import { ReactNode } from "react";
 import SEO from "@/components/SEO";
 
 const COMPANY = {
-  name: "Astrowave TV Net",
-  legalName: "Astrowave TV Net",
+  name: "CoreWaveConnect",
+  legalName: "CoreWaveConnect",
   phone: "(888) 253-7498",
   address: "405 Lomen Ave, Nome, Alaska 99762",
-  email: "info@astrowavetvnet.com",
+  email: "info@CoreWaveConnect.com",
   owner: "Steve Alexander Lopez",
-  website: "www.astrowavetvnet.com",
+  website: "www.CoreWaveConnect.com",
 };
 
 interface LegalPageProps {
@@ -31,7 +31,7 @@ const LegalWrapper = ({ title, description, path, children }: LegalPageProps) =>
 );
 
 export const DisclaimerPage = () => (
-  <LegalWrapper title="Disclaimer" description="Read the Astrowave TV Net disclaimer regarding service availability, pricing, and website information accuracy." path="/disclaimer">
+  <LegalWrapper title="Disclaimer" description="Read the CoreWaveConnect disclaimer regarding service availability, pricing, and website information accuracy." path="/disclaimer">
     <p>Last updated: January 1, 2026</p>
 
     <h2>General Disclaimer</h2>
@@ -63,7 +63,7 @@ export const DisclaimerPage = () => (
 );
 
 export const PrivacyPolicyPage = () => (
-  <LegalWrapper title="Privacy Policy" description="Astrowave TV Net privacy policy. Learn how we collect, use, and protect your personal information." path="/privacy-policy">
+  <LegalWrapper title="Privacy Policy" description="CoreWaveConnect privacy policy. Learn how we collect, use, and protect your personal information." path="/privacy-policy">
     <p>Last updated: January 1, 2026</p>
 
     <h2>Introduction</h2>
@@ -142,7 +142,7 @@ export const PrivacyPolicyPage = () => (
 );
 
 export const TermsPage = () => (
-  <LegalWrapper title="Terms & Conditions" description="Astrowave TV Net terms and conditions governing the use of our internet and TV services." path="/terms">
+  <LegalWrapper title="Terms & Conditions" description="CoreWaveConnect terms and conditions governing the use of our internet and TV services." path="/terms">
     <p>Last updated: January 1, 2026</p>
 
     <h2>1. Acceptance of Terms</h2>
@@ -216,7 +216,7 @@ export const TermsPage = () => (
 );
 
 export const RefundPolicyPage = () => (
-  <LegalWrapper title="Refund Policy" description="Astrowave TV Net refund policy. Learn about eligibility, processing times, and how to request a refund." path="/refund-policy">
+  <LegalWrapper title="Refund Policy" description="CoreWaveConnect refund policy. Learn about eligibility, processing times, and how to request a refund." path="/refund-policy">
     <p>Last updated: January 1, 2026</p>
 
     <h2>Our Commitment</h2>
@@ -263,7 +263,7 @@ export const RefundPolicyPage = () => (
 );
 
 export const AdvertisingDisclosurePage = () => (
-  <LegalWrapper title="Advertising Disclosure" description="Astrowave TV Net advertising disclosure regarding pricing, speed claims, channel availability, and Google Ads compliance." path="/advertising-disclosure">
+  <LegalWrapper title="Advertising Disclosure" description="CoreWaveConnect advertising disclosure regarding pricing, speed claims, channel availability, and Google Ads compliance." path="/advertising-disclosure">
     <p>Last updated: January 1, 2026</p>
 
     <h2>Commitment to Transparent Advertising</h2>

@@ -5,19 +5,19 @@ import FAQSection from "@/components/FAQSection";
 
 const aboutFaqs = [
   {
-    q: "When was Astrowave TV Net founded?",
-    a: "Astrowave TV Net was founded by Steve Alexander Lopez and has grown from a regional startup headquartered in Nome, Alaska to a trusted nationwide provider serving customers in all 50 states.",
+    q: "When was CoreWaveConnect founded?",
+    a: "CoreWaveConnect was founded by Steve Alexander Lopez and has grown from a regional startup headquartered in Nome, Alaska to a trusted nationwide provider serving customers in all 50 states.",
   },
   {
-    q: "What makes Astrowave different from other providers?",
+    q: "What makes CoreWaveConnect different from other providers?",
     a: "We combine cutting-edge network infrastructure with a customer-first approach. Our 99.7% uptime guarantee, transparent pricing, and dedicated support set us apart from traditional providers.",
   },
   {
-    q: "Does Astrowave serve businesses as well as homes?",
+    q: "Does CoreWaveConnect serve businesses as well as homes?",
     a: "Yes. We offer both residential and business plans. Business customers can get custom plans with dedicated bandwidth, static IP addresses, and SLA guarantees. Call (888) 253-7498 for business inquiries.",
   },
   {
-    q: "Where is Astrowave headquartered?",
+    q: "Where is CoreWaveConnect headquartered?",
     a: "Our headquarters is located at 405 Lomen Ave, Nome, Alaska 99762. While our roots are in Alaska, our network and service coverage extend across all 50 states.",
   },
 ];
@@ -36,7 +36,7 @@ const About = () => {
     <div>
       <SEO
         title="About Us"
-        description="Learn about Astrowave TV Net — founded by Steve Alexander Lopez to bring reliable high-speed internet and premium TV to homes and businesses across all 50 states."
+        description="Learn about CoreWaveConnect — founded by Steve Alexander Lopez to bring reliable high-speed internet and premium TV to homes and businesses across all 50 states."
         path="/about"
       />
       {/* Hero */}
@@ -50,7 +50,7 @@ const About = () => {
               Powering America's <span className="text-gradient">Connected Future</span>
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-lg text-muted-foreground leading-relaxed">
-              Astrowave TV Net was founded with a single mission: to bring reliable, high-speed internet
+              CoreWaveConnect was founded with a single mission: to bring reliable, high-speed internet
               and premium television to homes and businesses across the United States. Where others see limitations,
               we see opportunity.
             </motion.p>
@@ -76,11 +76,11 @@ const About = () => {
               </motion.h2>
               <motion.p variants={fadeUp} custom={2} className="text-muted-foreground leading-relaxed mb-4">
                 Across the United States, millions of families and businesses depend on fast, reliable
-                internet and TV for education, healthcare, remote work, and entertainment. At Astrowave,
+                internet and TV for education, healthcare, remote work, and entertainment. At CoreWaveConnect,
                 we believe everyone deserves access to world-class connectivity.
               </motion.p>
               <motion.p variants={fadeUp} custom={3} className="text-muted-foreground leading-relaxed">
-                Astrowave TV Net leverages cutting-edge network infrastructure and nationwide coverage
+                CoreWaveConnect leverages cutting-edge network infrastructure and nationwide coverage
                 to deliver speeds up to 1+ Gbps and 300+ TV channels to homes and businesses in all 50 states.
               </motion.p>
             </div>
@@ -132,12 +132,12 @@ const About = () => {
               Founder & Owner
             </motion.p>
             <motion.p variants={fadeUp} custom={3} className="text-muted-foreground leading-relaxed mb-4">
-              Steve Alexander Lopez founded Astrowave TV Net with a vision to deliver premium internet
+              Steve Alexander Lopez founded CoreWaveConnect with a vision to deliver premium internet
               and TV service to every American household. With a deep understanding of the challenges
               facing underserved communities, he set out to build a company that puts customers first.
             </motion.p>
             <motion.p variants={fadeUp} custom={4} className="text-muted-foreground leading-relaxed">
-              Under his leadership, Astrowave has grown from a regional startup headquartered in Nome, Alaska
+              Under his leadership, CoreWaveConnect has grown from a regional startup headquartered in Nome, Alaska
               to a trusted nationwide provider. Steve remains committed to expanding coverage, pushing speeds
               higher, and keeping prices fair for every American family.
             </motion.p>
@@ -165,9 +165,10 @@ const About = () => {
       </section>
 
       {/* FAQ */}
-      <FAQSection faqs={aboutFaqs} title="About Astrowave" subtitle="Questions" />
+      <FAQSection faqs={aboutFaqs} title="About CoreWaveConnect" subtitle="Questions" />
     </div>
   );
 };
 
 export default About;
+

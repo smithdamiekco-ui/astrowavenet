@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://astrowavetvnet.com/sitemap.xml
+Sitemap: https://CoreWaveConnect.com/sitemap.xml
