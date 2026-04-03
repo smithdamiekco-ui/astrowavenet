@@ -7,7 +7,7 @@ import FAQSection from "@/components/FAQSection";
 const contactFaqs = [
   {
     q: "How long does it take to get a response?",
-    a: "We typically respond to all inquiries within 24 hours during business days. For urgent technical issues, our 24/7 technical support line at (888) 253-7498 is always available.",
+    a: "We typically respond to all inquiries within 24 hours during business days. For urgent technical issues, our 24/7 technical support line at (888) 614-8407 is always available.",
   },
   {
     q: "Can I manage my account online?",
@@ -15,11 +15,11 @@ const contactFaqs = [
   },
   {
     q: "What should I do if my internet goes down?",
-    a: "First, try restarting your modem and router. If the issue persists, call our 24/7 technical support at (888) 253-7498. Our team can run remote diagnostics and dispatch a technician if needed.",
+    a: "First, try restarting your modem and router. If the issue persists, call our 24/7 technical support at (888) 614-8407. Our team can run remote diagnostics and dispatch a technician if needed.",
   },
   {
     q: "How do I schedule a service appointment?",
-    a: "You can schedule service appointments by calling (888) 253-7498 or by submitting a request through the contact form above. We offer flexible scheduling including weekday and Saturday appointments.",
+    a: "You can schedule service appointments by calling (888) 614-8407 or by submitting a request through the contact form above. We offer flexible scheduling including weekday and Saturday appointments.",
   },
 ];
 import { Input } from "@/components/ui/input";
@@ -61,7 +61,7 @@ const Contact = () => {
     <div>
       <SEO
         title="Contact & Support"
-        description="Get in touch with CoreWaveConnect. Call (888) 253-7498 for technical support, billing, or to sign up for high-speed internet and TV service."
+        description="Get in touch with CoreWaveConnect. Call (888) 614-8407 for technical support, billing, or to sign up for high-speed internet and TV service."
         path="/contact"
       />
       {/* Hero */}
@@ -187,8 +187,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-sm mb-1">Phone</h4>
-                    <a href="tel:+18882537498" className="text-primary font-mono hover:text-secondary transition-colors">
-                      (888) 253-7498
+                    <a href="tel:+18886148407" className="text-primary font-mono hover:text-secondary transition-colors">
+                      (888) 614-8407
                     </a>
                   </div>
                 </div>

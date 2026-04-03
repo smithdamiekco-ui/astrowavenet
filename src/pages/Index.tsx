@@ -13,7 +13,7 @@ const homeFaqs = [
   },
   {
     q: "Is CoreWaveConnect available in my area?",
-    a: "We provide service across all 50 states in the United States. Our nationwide network ensures coverage from coast to coast. Call us at (888) 253-7498 or visit our Contact page to verify availability at your specific address.",
+    a: "We provide service across all 50 states in the United States. Our nationwide network ensures coverage from coast to coast. Call us at (888) 614-8407 or visit our Contact page to verify availability at your specific address.",
   },
   {
     q: "Can I bundle internet and TV together?",
@@ -146,11 +146,11 @@ const CtaPopup = forwardRef<HTMLDivElement, { onClose: () => void }>(({ onClose 
       </p>
       <div className="flex flex-col sm:flex-row gap-3">
         <a
-          href="tel:+18882537498"
+          href="tel:+18886148407"
           className="flex-1 inline-flex items-center justify-center gap-2 h-11 bg-gradient-brand text-primary-foreground font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-opacity"
         >
           <Phone className="h-4 w-4" />
-          (888) 253-7498
+          (888) 614-8407
         </a>
         <Link
           to="/plans"
@@ -489,11 +489,11 @@ const Index = () => {
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
             >
               <a
-                href="tel:+18882537498"
-                className="inline-flex items-center justify-center gap-2 h-12 px-8 bg-gradient-brand text-primary-foreground font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-opacity"
+                href="tel:+18886148407"
+                className="inline-flex items-center justify-center gap-2 h-11 bg-gradient-brand text-primary-foreground font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-opacity"
               >
                 <Phone className="h-4 w-4" />
-                (888) 253-7498
+                (888) 614-8407
               </a>
               <Link
                 to="/plans"

@@ -14,7 +14,7 @@ const aboutFaqs = [
   },
   {
     q: "Does CoreWaveConnect serve businesses as well as homes?",
-    a: "Yes. We offer both residential and business plans. Business customers can get custom plans with dedicated bandwidth, static IP addresses, and SLA guarantees. Call (888) 253-7498 for business inquiries.",
+    a: "Yes. We offer both residential and business plans. Business customers can get custom plans with dedicated bandwidth, static IP addresses, and SLA guarantees. Call (888) 614-8407 for business inquiries.",
   },
   {
     q: "Where is CoreWaveConnect headquartered?",

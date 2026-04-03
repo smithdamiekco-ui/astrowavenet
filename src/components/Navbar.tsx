@@ -45,11 +45,11 @@ const Navbar = () => {
           {/* Phone + Mobile Toggle */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:+18882537498"
+              href="tel:+18886148407"
               className="hidden sm:flex items-center gap-2 text-sm font-mono text-primary hover:text-secondary transition-colors"
             >
               <Phone className="h-4 w-4" />
-              (888) 253-7498
+              (888) 614-8407
             </a>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -86,11 +86,11 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="tel:+18882537498"
+                href="tel:+18886148407"
                 className="flex items-center gap-2 text-sm font-mono text-primary"
               >
                 <Phone className="h-4 w-4" />
-                (888) 253-7498
+                (888) 614-8407
               </a>
             </nav>
           </motion.div>

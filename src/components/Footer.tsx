@@ -67,8 +67,8 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                <a href="tel:+18882537498" className="hover:text-primary transition-colors font-mono">
-                  (888) 253-7498
+                <a href="tel:+18886148407" className="hover:text-primary transition-colors font-mono">
+                  (888) 614-8407
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -91,7 +91,7 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
             Disclaimer: All prices, speeds, and channel counts shown are subject to change and may vary by location.
             Internet speeds represent maximum download speeds under ideal conditions; actual speeds may vary.
             Taxes, fees, and equipment charges may apply. Service availability is not guaranteed in all areas.
-            Contact us at (888) 253-7498 for details. CoreWaveConnect is operated by Steve Alexander Lopez.
+            Contact us at (888) 614-8407 for details. CoreWaveConnect is operated by Steve Alexander Lopez.
           </p>
         </div>
 

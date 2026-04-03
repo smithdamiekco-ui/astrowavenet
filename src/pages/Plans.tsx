@@ -111,7 +111,7 @@ const faqs = [
   },
   {
     q: "Do you offer business plans?",
-    a: "Yes. Contact our business team at (888) 253-7498 for custom plans with dedicated bandwidth, static IP addresses, and SLA guarantees tailored to your business needs.",
+    a: "Yes. Contact our business team at (888) 614-8407 for custom plans with dedicated bandwidth, static IP addresses, and SLA guarantees tailored to your business needs.",
   },
   {
     q: "What payment methods do you accept?",
@@ -320,11 +320,11 @@ const Plans = () => {
             <motion.a
               variants={fadeUp}
               custom={2}
-              href="tel:+18882537498"
-              className="inline-flex items-center justify-center gap-2 h-12 px-8 bg-gradient-brand text-primary-foreground font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-opacity"
+              href="tel:+18886148407"
+              className="inline-flex items-center justify-center gap-2 w-full h-12 bg-gradient-brand text-primary-foreground font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-opacity"
             >
               <Phone className="h-4 w-4" />
-              (888) 253-7498
+              (888) 614-8407
             </motion.a>
           </motion.div>
         </div>

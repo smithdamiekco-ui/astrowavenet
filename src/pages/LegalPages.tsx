@@ -4,7 +4,7 @@ import SEO from "@/components/SEO";
 const COMPANY = {
   name: "CoreWaveConnect",
   legalName: "CoreWaveConnect",
-  phone: "(888) 253-7498",
+  phone: "(888) 614-8407",
   address: "405 Lomen Ave, Nome, Alaska 99762",
   email: "info@CoreWaveConnect.com",
   owner: "Steve Alexander Lopez",
